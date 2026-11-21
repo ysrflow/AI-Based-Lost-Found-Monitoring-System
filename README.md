@@ -138,12 +138,17 @@ These thresholds can be adjusted in `main8.py` based on camera position, scene s
 
 ## Screenshots
 
-Add project screenshots here before publishing:
+### Dashboard
 
-- Live camera monitoring window
-- Object detection and tracking output
-- Flask event dashboard
-- Saved event video and thumbnail
+![Dashboard showing recorded unattended-object events](docs/images/dashboard.png)
+
+### Unattended Object Detection
+
+![Unattended bag detection](docs/images/unattended-object-detected.png)
+
+### Attended Object State
+
+![Attended bag detection](docs/images/attended-object.png)
 
 ## Research and Documentation
 
