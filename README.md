@@ -163,8 +163,8 @@ The system tracks an object through multiple states before creating an event.
 ![Unattended object detected](docs/images/1.png)
 ## Research and Documentation
 
-- Research paper: add a direct link here if publicly available.
-- Project thesis: add a direct link here if publicly available.
+- Research paper:https://ijcrt.org/viewpaperforall.php?paper=IJCRT2603955
+
 
 ## Future Improvements
 
