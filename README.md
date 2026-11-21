@@ -138,18 +138,29 @@ These thresholds can be adjusted in `main8.py` based on camera position, scene s
 
 ## Screenshots
 
+## Screenshots
+
 ### Dashboard
 
-![Dashboard showing recorded unattended-object events](docs/images/dashboard.png)
+The Flask dashboard lists detected events, camera-wise event counts, searchable records, video thumbnails, and uploaded-video processing.
 
-### Unattended Object Detection
+![AI Lost and Found Dashboard](docs/images/0.png)
 
-![Unattended bag detection](docs/images/unattended-object-detected.png)
+### Detection State Flow
 
-### Attended Object State
+The system tracks an object through multiple states before creating an event.
 
-![Attended bag detection](docs/images/attended-object.png)
+**1. Attended:** A person is close to the detected bag.
 
+![Attended object](docs/images/3.png)
+
+**2. Potentially unattended:** The bag remains stationary and the associated person is no longer nearby.
+
+![Potentially unattended object](docs/images/2.png)
+
+**3. Unattended:** The configured absence and stationary thresholds are reached, triggering an unattended-object event.
+
+![Unattended object detected](docs/images/1.png)
 ## Research and Documentation
 
 - Research paper: add a direct link here if publicly available.
